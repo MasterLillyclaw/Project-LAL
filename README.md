@@ -4,6 +4,6 @@ Our project will be great!
 You should read this!
 
 Developers:
--Lance
--Andreana Chua
--Lilliana
+- Lance
+- Andreana Chua
+- Lilliana
