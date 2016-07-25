@@ -7,12 +7,17 @@
 
 function makeColorRed() {
   $(".redCircle").on("click", function () {
+    // this sets a variable as the css background attribute
     var color = $(this).css("background");
     $(".practiceRectangle").on("click", function () {
+      // this changes the new background to the previously
+      // set variable called color
       $(this).css("background", color)
     });
   })
 }
+
+// the pattern is repeated for all palette colors
 
 function makeColorOrange() {
   $(".orangeCircle").on("click", function () {

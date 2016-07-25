@@ -3,7 +3,7 @@
 /* background */
 .rectangle {
   position: fixed;
-    top: 0;
+    top: 200;
     left: 0;
   width: 200px;
 	height: 320px;
@@ -14,130 +14,162 @@
 
 /* red */ .redCircle {
   position: relative;
-    top: 35px;
+    top: 235px;
     left: 15px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: red;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* orange */ .orangeCircle {
+/* orange */
+.orangeCircle {
   position: relative;
-    top: 35px;
+    top: 235px;
     left: 15px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: orange;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* yellow */ .yellowCircle {
+/* yellow */
+.yellowCircle {
   position: relative;
-      top: 35px;
-      left: 15px;
-    width: 50px;
+    top: 235px;
+    left: 15px;
+  /**/
+  width: 50px;
 	height: 50px;
 	background: yellow;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* green */ .greenCircle {
+/* green */
+.greenCircle {
   position: relative;
-      top: 35px;
-      left: 15px;
-    width: 50px;
+    top: 235px;
+    left: 15px;
+  /**/
+  width: 50px;
 	height: 50px;
 	background: green;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* blue */ .blueCircle {
+/* blue */
+.blueCircle {
   position: relative;
-    top: -245px;
+    top: -45px;
     left: 100px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: blue;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* purple */ .purpleCircle {
+/* purple */
+.purpleCircle {
   position: relative;
-    top: -245px;
+    top: -45px;
     left: 100px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: purple;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* black */ .blackCircle {
+/* black */
+.blackCircle {
   position: relative;
-    top: -245px;
+    top: -45px;
     left: 100px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: black;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-	-moz-border-radius: 50px;
+  /**/
+  -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
 
-/* white */ .whiteCircle {
+/* white */
+.whiteCircle {
   position: relative;
-    top: -245px;
+    top: -45px;
     left: 100px;
+  /**/
   width: 50px;
 	height: 50px;
 	background: white;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
+  /**/
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+
 }
 
 /* This shape is to test the jQuery
