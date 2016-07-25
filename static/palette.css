@@ -1,0 +1,224 @@
+/* Setting up the color palettes */
+
+/* background */
+.rectangle {
+  position: fixed;
+    top: 200;
+    left: 0;
+  width: 200px;
+	height: 320px;
+	background: #e6e6e6;
+}
+
+/* The different palette circles */
+
+/* red */
+.redCircle {
+  position: relative;
+    top: 235px;
+    left: 15px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: red;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* yellow */
+.yellowCircle {
+  position: relative;
+    top: 200px;
+    left: 15px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: yellow;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* blue */
+.blueCircle {
+  position: relative;
+    top: 165px;
+    left: 15px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: blue;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* black */
+.blackCircle {
+  position: relative;
+    top: 130px;
+    left: 15px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: black;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* orange */
+.orangeCircle {
+  position: relative;
+    top: 180px;
+    left: 100px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: orange;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* green */
+.greenCircle {
+  position: relative;
+    top: 145px;
+    left: 100px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: green;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* purple */
+.purpleCircle {
+  position: relative;
+    top: 110px;
+    left: 100px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: purple;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* white */
+.whiteCircle {
+  position: relative;
+    top: 75px;
+    left: 100px;
+  /**/
+  width: 50px;
+	height: 50px;
+	background: white;
+  /**/
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  /**/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  /**/
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* This shape is to test the jQuery
+for clicking and coloring */
+
+.practiceRectangle {
+  position: fixed;
+  top: 250;
+  left: 250;
+  width: 200;
+  height: 200;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+}
