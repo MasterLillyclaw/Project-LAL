@@ -1,7 +1,7 @@
 /* Setting up the color palettes */
 
 /* background */
-.rectangle {
+.paletteRectangle {
   position: fixed;
     top: 200;
     left: 0;
@@ -14,9 +14,9 @@
 
 /* red */
 .redCircle {
-  position: relative;
-    top: 235px;
-    left: 15px;
+  position: fixed;
+    top: 250px;
+    left: 25px;
   /**/
   width: 50px;
 	height: 50px;
@@ -38,9 +38,9 @@
 
 /* yellow */
 .yellowCircle {
-  position: relative;
-    top: 200px;
-    left: 15px;
+  position: fixed;
+    top: 320px;
+    left: 25px;
   /**/
   width: 50px;
 	height: 50px;
@@ -62,9 +62,9 @@
 
 /* blue */
 .blueCircle {
-  position: relative;
-    top: 165px;
-    left: 15px;
+  position: fixed;
+    top: 390px;
+    left: 25px;
   /**/
   width: 50px;
 	height: 50px;
@@ -87,9 +87,9 @@
 
 /* black */
 .blackCircle {
-  position: relative;
-    top: 130px;
-    left: 15px;
+  position: fixed;
+    top: 460px;
+    left: 25px;
   /**/
   width: 50px;
 	height: 50px;
@@ -112,9 +112,9 @@
 
 /* orange */
 .orangeCircle {
-  position: relative;
-    top: 180px;
-    left: 100px;
+  position: fixed;
+    top: 250px;
+    left: 110px;
   /**/
   width: 50px;
 	height: 50px;
@@ -136,9 +136,9 @@
 
 /* green */
 .greenCircle {
-  position: relative;
-    top: 145px;
-    left: 100px;
+  position: fixed;
+    top: 320px;
+    left: 110px;
   /**/
   width: 50px;
 	height: 50px;
@@ -161,9 +161,9 @@
 
 /* purple */
 .purpleCircle {
-  position: relative;
-    top: 110px;
-    left: 100px;
+  position: fixed;
+    top: 390px;
+    left: 110px;
   /**/
   width: 50px;
 	height: 50px;
@@ -186,9 +186,9 @@
 
 /* white */
 .whiteCircle {
-  position: relative;
-    top: 75px;
-    left: 100px;
+  position: fixed;
+    top: 460px;
+    left: 110px;
   /**/
   width: 50px;
 	height: 50px;
@@ -208,19 +208,8 @@
   line-height: 50px;
 }
 
-/* This shape is to test the jQuery
-for clicking and coloring */
-
-.practiceRectangle {
-  position: relative;
-    top: -190;
-    left: 600;
-  /**/
-  width: 200;
-  height: 200;
-  /**/
-  border-left: 2px solid grey;
-  border-right: 2px solid grey;
-  border-bottom: 2px solid grey;
-  border-top: 2px solid grey;
+div.palette {
+  width: 210px;
+  height: 320px;
+  float: left;
 }
