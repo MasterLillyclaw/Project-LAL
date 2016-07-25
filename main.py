@@ -12,6 +12,12 @@ class MainHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('main-page.html')
         self.response.out.write(template.render())
 
+class practicePaletteHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('TemplatePracticePage.html')
+        self.response.out.write(template.render())
+
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+    ('/practicePalette', practicePaletteHandler),
 ], debug=True)

@@ -1,0 +1,19 @@
+
+.toolsRectangle {
+  position: fixed;
+    top: 210;
+    right: 0;
+  /**/
+  width: 200px;
+	height: 320px;
+	background: #e6e6e6;
+  /**/
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  /**/
+}
+
+p {
+  padding-top: 5px;
+}
