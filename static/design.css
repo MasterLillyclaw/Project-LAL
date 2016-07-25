@@ -1,3 +1,4 @@
+
 h1{
   text-align: center;
   font-size: 50px;
@@ -58,6 +59,7 @@ body{
     background-color: #f1f1f1
 }
 .show {display: block;}
+<<<<<<< HEAD
 /*dropdown 2*/
 .dropbtn2 {
     position: relative;
@@ -96,3 +98,6 @@ body{
     background-color: #f1f1f1
 }
 .show2 {display: block;}
+=======
+>>>>>>> 496f10dd9ea4539b813a89711927353e45521a2d
+>>>>>>> ad5fd25b4df8dc0571b1db4be6a10985be0d93b9

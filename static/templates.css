@@ -1,4 +1,3 @@
-
 /*Snowman Template
 .
 .
@@ -194,9 +193,191 @@
   margin-left: 60%;
   margin-top:85%;
 }
-/*End of Snowman Template*/
+/*End of Snowman Template
+.
+.
+.
+*/
 
 /*House Template
+.
+.
+.
+*/
+.Foundation {
+  width: 400px;
+  height: 400px;
+  border: solid;
+  background: white;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 50%;
+}
+
+.Roof {
+	width: 0;
+	height: 0;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 300px solid white;
+  position: absolute;
+  margin-left: -25%;
+  margin-top: -15%;
+}
+
+.RoofOutline {
+	width: 0;
+	height: 0;
+	border-left: 310px solid transparent;
+	border-right: 310px solid transparent;
+	border-bottom: 310px solid black;
+  position: absolute;
+  margin-left: -27.5%;
+  margin-top: -16.5%;
+}
+
+.Chimney {
+  width: 30px;
+  height: 100px;
+  border: solid;
+  background: white;
+  position: absolute;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+.Door {
+  width: 100px;
+  height: 200px;
+  border: solid;
+  background: white;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 100%;
+}
+
+.DoorKnob {
+  width: 20px;
+  height: 20px;
+  border: solid;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 300px;
+  margin-left: 53%;
+  margin-top: 125%;
+  position: absolute;
+}
+
+.TreeTop {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid white;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 60%;
+}
+
+.TreeMiddle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid white;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 80%;
+}
+
+.TreeBottom {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid white;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 100%;
+}
+
+.TreeTopOutline {
+	width: 0;
+	height: 0;
+	border-left: 106px solid transparent;
+	border-right: 106px solid transparent;
+	border-bottom: 156px solid black;
+  position: absolute;
+  margin-left: 78.5%;
+  margin-top: 59.2%;
+}
+
+.TreeMiddleOutline {
+	width: 0;
+	height: 0;
+	border-left: 106px solid transparent;
+	border-right: 106px solid transparent;
+	border-bottom: 156px solid black;
+  position: absolute;
+  margin-left: 78.5%;
+  margin-top: 79.2%;
+}
+
+.TreeBottomOutline {
+	width: 0;
+	height: 0;
+	border-left: 106px solid transparent;
+	border-right: 106px solid transparent;
+	border-bottom: 156px solid black;
+  position: absolute;
+  margin-left: 78.5%;
+  margin-top: 99.2%;
+}
+
+.TreeStump {
+  width: 30px;
+  height: 100px;
+  border: solid;
+  background: white;
+  position: absolute;
+  margin-left: 100%;
+  margin-top: 125%;
+}
+
+.Window {
+  width: 150px;
+  height: 150px;
+  border: solid;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 300px;
+  margin-left: 30%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.WindowCrossVer {
+  background: white;
+  border: solid;
+  height: 150px;
+  position: absolute;
+  width: 10px;
+  margin-left: 47.5%;
+  margin-top: 10%;
+}
+
+.WindowCrossHor {
+  background: white;
+  border: solid;
+  height: 10px;
+  position: absolute;
+  width: 150px;
+  margin-left: 30%;
+  margin-top: 28%;
+}
+/*End of House Template
 .
 .
 .
