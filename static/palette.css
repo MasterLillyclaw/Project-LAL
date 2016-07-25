@@ -212,11 +212,13 @@
 for clicking and coloring */
 
 .practiceRectangle {
-  position: fixed;
-  top: 250;
-  left: 250;
+  position: relative;
+    top: -190;
+    left: 600;
+  /**/
   width: 200;
   height: 200;
+  /**/
   border-left: 2px solid grey;
   border-right: 2px solid grey;
   border-bottom: 2px solid grey;
