@@ -1,4 +1,3 @@
-
 /* Setting up the click function:
   "If you click on a color in the palette, then
   click on the shape, as a result,
@@ -26,6 +25,10 @@ function makeColorRed() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid red")
     });
+    //This applies to the house chimney
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid red")
+    });
   })
 }
 
@@ -47,6 +50,9 @@ function makeColorOrange() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid orange")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid orange")
+    });
   })
 }
 
@@ -65,6 +71,9 @@ function makeColorYellow() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid yellow")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid yellow")
     });
   })
 }
@@ -85,6 +94,9 @@ function makeColorGreen() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid green")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid green")
+    });
   })
 }
 
@@ -103,6 +115,9 @@ function makeColorBlue() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid blue")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid blue")
     });
   })
 }
@@ -123,6 +138,9 @@ function makeColorPurple() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid purple")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid purple")
+    });
   })
 }
 
@@ -142,6 +160,9 @@ function makeColorBlack() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid black")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid black")
+    });
   })
 }
 
@@ -160,6 +181,9 @@ function makeColorWhite() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid white")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid white")
     });
   })
 }
