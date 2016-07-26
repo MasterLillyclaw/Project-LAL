@@ -14,10 +14,17 @@ class MainHandler(webapp2.RequestHandler):
 
 class practicePaletteHandler(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('TemplatePracticePage.html')
+        template = jinja_environment.get_template('PracticeMerge.html')
         self.response.out.write(template.render())
+
+class somewhatSnowmanHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('Snowman.html')
+        self.response.out.write(template.render())
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/practicePalette', practicePaletteHandler),
+    ('/somewhatSnowman', somewhatSnowmanHandler),
 ], debug=True)

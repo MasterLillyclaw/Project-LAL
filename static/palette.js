@@ -6,13 +6,25 @@
   you clicked on." */
 
 function makeColorRed() {
-  $(".redCircle").on("click", function () {
+  $("#redCircle").on("click", function () {
     // this sets a variable as the css background attribute
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       // this changes the new background to the previously
       // set variable called color
       $(this).css("background", color)
+    });
+    // This applies to the snowman nose
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid red")
+    });
+    // This applies to the house roof
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid red")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid red")
     });
   })
 }
@@ -20,67 +32,139 @@ function makeColorRed() {
 // the pattern is repeated for all palette colors
 
 function makeColorOrange() {
-  $(".orangeCircle").on("click", function () {
+  $("#orangeCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid orange")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid orange")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid orange")
     });
   })
 }
 
 function makeColorYellow() {
-  $(".yellowCircle").on("click", function () {
+  $("#yellowCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid yellow")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid yellow")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid yellow")
     });
   })
 }
 
 function makeColorGreen() {
-  $(".greenCircle").on("click", function () {
+  $("#greenCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid green")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid green")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid green")
     });
   })
 }
 
 function makeColorBlue() {
-  $(".blueCircle").on("click", function () {
+  $("#blueCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid blue")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid blue")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid blue")
     });
   })
 }
 
 function makeColorPurple() {
-  $(".purpleCircle").on("click", function () {
+  $("#purpleCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid purple")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid purple")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid purple")
     });
   })
 }
 
 function makeColorBlack() {
-  $(".blackCircle").on("click", function () {
+  $("#blackCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid black")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid black")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid black")
     });
   })
 }
 
 function makeColorWhite() {
-  $(".whiteCircle").on("click", function () {
+  $("#whiteCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid white")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid white")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid white")
     });
   })
 }
+
+
 
 /* This function will call all other functions */
 function main() {
@@ -93,5 +177,6 @@ function main() {
   makeColorBlack();
   makeColorWhite();
 }
+
 
 $(document).ready(main);
