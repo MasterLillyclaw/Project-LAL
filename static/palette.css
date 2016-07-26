@@ -208,13 +208,15 @@
   line-height: 50px;
 }
 
-.practiceRectangle {
-  width: 200px;
-	height: 200px;
-}
-
 div.palette {
   width: 210px;
   height: 320px;
   float: left;
+}
+
+.glowingCircle:hover {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  box-shadow: 10px 10px 50px black;
 }
