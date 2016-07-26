@@ -77,7 +77,6 @@
   position: absolute;
 }
 
-
 #Nose {
 	width: 0;
 	height: 0;
@@ -191,7 +190,7 @@
   margin-left: 60%;
   margin-top:85%;
 }
-
+/*
 div.snowman {
   width: 700px;
   height: 1000px;

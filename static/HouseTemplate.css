@@ -6,7 +6,7 @@
   margin-left: 37%;
 }
 
-.Foundation {
+#Foundation {
   width: 400px;
   height: 400px;
   border: solid;
@@ -16,7 +16,7 @@
   margin-top: 50%;
 }
 
-.Roof {
+#Roof {
 	width: 0;
 	height: 0;
 	border-left: 300px solid transparent;
@@ -27,7 +27,7 @@
   margin-top: -15%;
 }
 
-.RoofOutline {
+#RoofOutline {
 	width: 0;
 	height: 0;
 	border-left: 310px solid transparent;
@@ -38,7 +38,7 @@
   margin-top: -16.5%;
 }
 
-.Chimney {
+#Chimney {
   width: 30px;
   height: 100px;
   border: solid;
@@ -48,7 +48,7 @@
   margin-top: 10%;
 }
 
-.Door {
+#Door {
   width: 100px;
   height: 200px;
   border: solid;
@@ -58,7 +58,7 @@
   margin-top: 100%;
 }
 
-.DoorKnob {
+#DoorKnob {
   width: 20px;
   height: 20px;
   border: solid;
@@ -71,7 +71,7 @@
   position: absolute;
 }
 
-.TreeTop {
+#TreeTop {
 	width: 0;
 	height: 0;
 	border-left: 100px solid transparent;
@@ -82,7 +82,7 @@
   margin-top: 60%;
 }
 
-.TreeMiddle {
+#TreeMiddle {
 	width: 0;
 	height: 0;
 	border-left: 100px solid transparent;
@@ -93,7 +93,7 @@
   margin-top: 80%;
 }
 
-.TreeBottom {
+#TreeBottom {
 	width: 0;
 	height: 0;
 	border-left: 100px solid transparent;
@@ -104,7 +104,7 @@
   margin-top: 100%;
 }
 
-.TreeTopOutline {
+#TreeTopOutline {
 	width: 0;
 	height: 0;
 	border-left: 106px solid transparent;
@@ -115,7 +115,7 @@
   margin-top: 59.2%;
 }
 
-.TreeMiddleOutline {
+#TreeMiddleOutline {
 	width: 0;
 	height: 0;
 	border-left: 106px solid transparent;
@@ -126,7 +126,7 @@
   margin-top: 79.2%;
 }
 
-.TreeBottomOutline {
+#TreeBottomOutline {
 	width: 0;
 	height: 0;
 	border-left: 106px solid transparent;
@@ -137,7 +137,7 @@
   margin-top: 99.2%;
 }
 
-.TreeStump {
+#TreeStump {
   width: 30px;
   height: 100px;
   border: solid;
@@ -147,7 +147,7 @@
   margin-top: 125%;
 }
 
-.Window {
+#Window {
   width: 150px;
   height: 150px;
   border: solid;
@@ -160,7 +160,7 @@
   position: absolute;
 }
 
-.WindowCrossVer {
+#WindowCrossVer {
   background: white;
   border: solid;
   height: 150px;
@@ -170,7 +170,7 @@
   margin-top: 10%;
 }
 
-.WindowCrossHor {
+#WindowCrossHor {
   background: white;
   border: solid;
   height: 10px;
