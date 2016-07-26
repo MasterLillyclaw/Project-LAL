@@ -1,10 +1,4 @@
 /*Snowman Template*/
-#OnTop {
-  position: absolute;
-  margin-left: 45%;
-  margin-top: 10%;
-}
-
 .Border{
   width: 400px;
   height: 800px;
