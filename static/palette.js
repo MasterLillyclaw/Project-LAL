@@ -22,7 +22,7 @@ function makeColorRed() {
 function makeColorOrange() {
   $(".orangeCircle").on("click", function () {
     var color = $(this).css("background");
-    $("clickable").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
