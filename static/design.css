@@ -1,27 +1,66 @@
 
 h1{
+  position: static;
   text-align: center;
   font-size: 50px;
   font-family: sans-serif;
+}
+#brush{
+  position: absolute;
+  margin-left:500px;
+}
+#home{
+  background-image:url("home_background.png");
+  background-repeat: repeat-x;
+}
+/*header1*/
+li{display:inline;}
+li span{color: red;}
+li span2{color: #ff33cc;}
+li span3{color: blue;}
+li span4{color: orange;}
+li span5{color: #00ff00;}
+li span6{color: blue;}
+li span7{color: #ff33cc;}
+li span8{color: blue;}
+/*webpage border*/
+#top, #bottom, #left, #right {
+  background:
+  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #0080ff;
+	position: fixed;
+}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 40px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+/*template images*/
+#snowMan{
+  position:absolute;
+  margin-top: 150px;
   border: 5px solid black;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin-left: 200px;
 }
-body{
-  border-right-color:#000000;
-  border-right-width:2px;
-  border-right-style:ridge;
-
-  border-left-color:#000000;
-  border-left-width:2px;
-  border-left-style:ridge;
-
-  border-top-color:#000000;
-  border-top-width:2px;
-  border-top-style:ridge;
+#theHouse{
+  position:absolute;
+  margin-top: 150px;
+  border: 5px solid black;
+  margin-left: 900px;
 }
+
 /*dropdown 1*/
 .dropbtn {
     position: relative;
@@ -59,7 +98,6 @@ body{
     background-color: #f1f1f1
 }
 .show {display: block;}
-<<<<<<< HEAD
 /*dropdown 2*/
 .dropbtn2 {
     position: relative;
@@ -86,7 +124,7 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-left: 525px;
+    margin-left: 900px;
 }
 .dropdown-content2 a {
     color: black;
@@ -98,6 +136,3 @@ body{
     background-color: #f1f1f1
 }
 .show2 {display: block;}
-=======
->>>>>>> 496f10dd9ea4539b813a89711927353e45521a2d
->>>>>>> ad5fd25b4df8dc0571b1db4be6a10985be0d93b9
