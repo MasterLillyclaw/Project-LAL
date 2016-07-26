@@ -9,6 +9,7 @@ h1{
   position: absolute;
   margin-left:500px;
 }
+
 #home{
   background-image:url("home_background.png");
   background-repeat: repeat-x;
@@ -17,15 +18,17 @@ h1{
 li{display:inline;}
 li span{color: red;}
 li span2{color: #ff33cc;}
-li span3{color: blue;}
-li span4{color: orange;}
-li span5{color: #00ff00;}
+li span3{color: orange;}
+li span4{color: yellow;}
+li span5{color: brown;}
 li span6{color: blue;}
 li span7{color: #ff33cc;}
-li span8{color: blue;}
+li span8{color: #00ff00;}
+li span9{color: red;}
 li{
   border-bottom: 2px solid red;
 }
+
 /*webpage border*/
 #top, #bottom, #left, #right {
   background:
