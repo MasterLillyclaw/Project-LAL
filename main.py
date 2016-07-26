@@ -12,19 +12,19 @@ class MainHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('main-page.html')
         self.response.out.write(template.render())
 
-class practicePaletteHandler(webapp2.RequestHandler):
+class MathSnowmanHandler(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('PracticeMerge.html')
+        template = jinja_environment.get_template('MathSnowman.html')
         self.response.out.write(template.render())
 
-class somewhatSnowmanHandler(webapp2.RequestHandler):
+class MathHouseHandler(webapp2.RequestHandler):
     def get(self):
-        template = jinja_environment.get_template('Snowman.html')
+        template = jinja_environment.get_template('MathHouse.html')
         self.response.out.write(template.render())
 
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
-    ('/practicePalette', practicePaletteHandler),
-    ('/somewhatSnowman', somewhatSnowmanHandler),
+    ('/math-snowman', MathSnowmanHandler),
+    ('/math-house', MathHouseHandler),
 ], debug=True)
