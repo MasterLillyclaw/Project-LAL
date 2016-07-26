@@ -4,22 +4,27 @@
 <head>
   <link rel="stylesheet" href="../static/palette.css">
   <link rel="stylesheet" href="../static/tools-tab.css">
-  <link href="../static/HouseTemplate.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="../static/HouseTemplate.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="../static/palette.js"></script>
 </head>
 
+<body>
+
+<!-- Setting up shapes for color palette,
+     Also putting numbers insclasse of circles-->
+
 <div class="palette">
   <p class="paletteRectangle"></p>
-  <div class="redCircle">1</div>
-  <div class="orangeCircle">2</div>
-  <div class="yellowCircle">3</div>
-  <div class="greenCircle">4</div>
-  <div class="blueCircle">5</div>
-  <div class="purpleCircle">6</div>
-  <div class="blackCircle">7</div>
-  <div class="whiteCircle">8</div>
+  <div id="redCircle">1</div>
+  <div id="orangeCircle">2</div>
+  <div id="yellowCircle">3</div>
+  <div id="greenCircle">4</div>
+  <div id="blueCircle">5</div>
+  <div id="purpleCircle">6</div>
+  <div id="blackCircle">7</div>
+  <div id="whiteCircle">8</div>
 </div>
 
 <div class="toolsRectangle">
@@ -31,29 +36,34 @@
 </div>
 
 <!--House Template  -->
+<<<<<<< HEAD
 <body class = "Border">
   <p> &nbsp </p>
   <p> &nbsp </p>
   <p> &nbsp </p>
   <p> &nbsp </p>
+=======
+<div class = "Border">
+  <p> &nbsp; </p>
+  <p> &nbsp; </p>
+>>>>>>> 099da7af078a13f8ae11615f7282102ff2568166
 
   <h1 id = "Chimney" class="clickable"><h1>
   <h1 id = "Foundation" class="clickable"></h1>
-  <h1 id = "RoofOutline" class="clickable"></h1>
-  <h1 id = "Roof" class="clickable"></h1>
+  <h1 id = "RoofOutline"></h1>
+  <h1 id = "Roof" class="clickableRoof"></h1>
   <h1 id = "Window" class="clickable"></h1>
   <h1 id = "WindowCrossHor" class="clickable"></h1>
   <h1 id = "WindowCrossVer" class="clickable"></h1>
   <h1 id = "Door" class="clickable"></h1>
   <h1 id = "DoorKnob" class="clickable"></h1>
   <h1 id = "TreeStump" class="clickable"></h1>
-  <h1 id = "TreeBottomOutline" class="clickable"></h1>
-  <h1 id = "TreeBottom" class="clickable"></h1>
-  <h1 id = "TreeMiddleOutline" class="clickable"></h1>
-  <h1 id = "TreeMiddle" class="clickable"></h1>
-  <h1 id = "TreeTopOutline" class="clickable"></h1>
-  <h1 id = "TreeTop" class="clickable"></h1>
+  <h1 id = "TreeBottomOutline"></h1>
+  <h1 id = "TreeBottom" class="clickableTree"></h1>
+  <h1 id = "TreeMiddleOutline"></h1>
+  <h1 id = "TreeMiddle" class="clickableTree"></h1>
+  <h1 id = "TreeTopOutline"></h1>
+  <h1 id = "TreeTop" class="clickableTree"></h1>
+</div>
 
 </body>
-
-</html>

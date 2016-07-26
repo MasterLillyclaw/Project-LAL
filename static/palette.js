@@ -1,4 +1,3 @@
-
 /* Setting up the click function:
   "If you click on a color in the palette, then
   click on the shape, as a result,
@@ -14,6 +13,18 @@ function makeColorRed() {
       // set variable called color
       $(this).css("background", color)
     });
+    // This applies to the snowman nose
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid red")
+    });
+    // This applies to the house roof
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid red")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid red")
+    });
   })
 }
 
@@ -25,6 +36,16 @@ function makeColorOrange() {
     $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid orange")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid orange")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid orange")
+    });
   })
 }
 
@@ -33,6 +54,16 @@ function makeColorYellow() {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid yellow")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid yellow")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid yellow")
     });
   })
 }
@@ -43,6 +74,16 @@ function makeColorGreen() {
     $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid green")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid green")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid green")
+    });
   })
 }
 
@@ -51,6 +92,16 @@ function makeColorBlue() {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid blue")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid blue")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid blue")
     });
   })
 }
@@ -61,6 +112,16 @@ function makeColorPurple() {
     $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid purple")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid purple")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid purple")
+    });
   })
 }
 
@@ -69,6 +130,16 @@ function makeColorBlack() {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
+    });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid black")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid black")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid black")
     });
   })
 }
@@ -79,8 +150,20 @@ function makeColorWhite() {
     $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
+    $(".clickableNose").on("click", function () {
+      $(this).css("border-bottom", "100px solid white")
+    });
+    $(".clickableRoof").on("click", function () {
+      $(this).css("border-bottom", "300px solid white")
+    });
+    // This applies to the house tree
+    $(".clickableTree").on("click", function () {
+      $(this).css("border-bottom", "150px solid white")
+    });
   })
 }
+
+
 
 /* This function will call all other functions */
 function main() {
@@ -93,5 +176,6 @@ function main() {
   makeColorBlack();
   makeColorWhite();
 }
+
 
 $(document).ready(main);
