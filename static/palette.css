@@ -213,10 +213,65 @@ div.palette {
   height: 320px;
   float: left;
 }
+<<<<<<< HEAD
+/*webpage border*/
+#top, #bottom, #left, #right {
+  background:
+  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #0080ff;
+	position: fixed;
+}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 40px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+/*webpage background*/
+#home{
+  background-image:url("home_background.png");
+  background-repeat: repeat-x;;
+}
+/*header1*/
+li{display:inline;}
+li span{color: red;}
+li span2{color: #ff33cc;}
+li span3{color: blue;}
+li span4{color: orange;}
+li span5{color: yellow;}
+li span6{color: blue;}
+li span7{color: #ff33cc;}
+li span8{color: #00ff00;}
+li{
+  border-bottom: 2px solid red;
+}
+h1{
+  position: static;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+#brush{
+  position: absolute;
+  margin-left:500px;
+=======
 
 .glowingCircle:hover {
   width: 300px;
   height: 100px;
   background-color: yellow;
   box-shadow: 0px 0px 60px black;
+>>>>>>> 7ece3cedac427b4aa8e6880d08f3dd2cfac34b83
 }
