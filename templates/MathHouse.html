@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="../static/HouseTemplate.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="../static/palette.js"></script>
+    <script src="../static/palette.js"></script>
+  <script src="../static/html2canvas.js"></script>
+    <script src="../static/savePictures.js"></script>
 </head>
 
 <body>
@@ -31,7 +33,8 @@
   <p><a href="http://localhost:16080/">Home</a><br>
   Undo<br>
   Redo<br>
-  Save<br>
+  <span onclick="saveToDisk()"><a id="dl" download="Canvas.png" href="#">Save</a>
+</span><br>
   <a href="http://localhost:16080/math-house">Reset</a>
 </p>
 </div>
@@ -60,8 +63,6 @@
   <h1 id = "TreeMiddle" class="clickableTree"></h1>
   <h1 id = "TreeTopOutline"></h1>
   <h1 id = "TreeTop" class="clickableTree"></h1>
-
-
 </div>
 
 </body>

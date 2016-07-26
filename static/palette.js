@@ -1,3 +1,4 @@
+
 /* Setting up the click function:
   "If you click on a color in the palette, then
   click on the shape, as a result,
@@ -46,7 +47,6 @@ function makeColorOrange() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid orange")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid orange")
     });
@@ -68,7 +68,6 @@ function makeColorYellow() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid yellow")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid yellow")
     });
@@ -90,7 +89,6 @@ function makeColorGreen() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid green")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid green")
     });
@@ -112,7 +110,6 @@ function makeColorBlue() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid blue")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid blue")
     });
@@ -134,7 +131,6 @@ function makeColorPurple() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid purple")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid purple")
     });
@@ -156,7 +152,6 @@ function makeColorBlack() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid black")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid black")
     });
@@ -178,7 +173,6 @@ function makeColorWhite() {
     $(".clickableRoof").on("click", function () {
       $(this).css("border-bottom", "300px solid white")
     });
-    // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid white")
     });
@@ -187,15 +181,6 @@ function makeColorWhite() {
     });
   })
 }
-
-// function makeButtonsGlow() {
-//   $(".glowingCircle").on("mouseenter", function () {
-//     $(this).effect("highlight", {color : "red"}, 2000);
-//   });
-//   $(".glowingCircle").on("mouseleave", function () {
-//     $(this).effect("highlight", {color : "#e6e6e6"}, 2000);
-//   });
-// }
 
 
 /* This function will call all other functions */
@@ -208,7 +193,6 @@ function main() {
   makeColorPurple();
   makeColorBlack();
   makeColorWhite();
-  // makeButtonsGlow();
 }
 
 
