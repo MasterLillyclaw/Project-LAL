@@ -1,59 +1,71 @@
 #HatTopEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: -7%;
+  margin-top: -11%;
 }
 
 #HatMiddleEqu {
   position: absolute;
   margin-left: 46.5%;
-  margin-top: 10%;
+  margin-top: -1%;
 }
 
 #HatBottomEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 20%;
+  margin-top: 6%;
 }
 
 #circleTopEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 63%;
+  margin-top: 34%;
 }
 
 #circleMiddleEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 117%;
+  margin-top: 76%;
 }
 
 #circleBottomEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 190%;
+  margin-top: 132%;
 }
 
 #ButtonTopEqu {
   position: absolute;
   margin-left: 45.5%;
-  margin-top: 76%;
+  margin-top: 43%;
 }
 
 #ButtonMiddleEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 91%;
+  margin-top: 55%;
 }
 
 #ButtonBottomEqu {
   position: absolute;
   margin-left: 46%;
-  margin-top: 106%;
+  margin-top: 67%;
 }
 
 #NoseEqu {
   position: absolute;
   margin-left: 41%;
-  margin-top: 44%;
+  margin-top: 22.5%;
+}
+
+#RightArmEqu {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 48.3%;
+}
+
+#LeftArmEqu {
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 48.3%;
 }
