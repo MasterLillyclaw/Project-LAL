@@ -12,6 +12,16 @@ class MainHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('main-page.html')
         self.response.out.write(template.render())
 
+class FreestyleSnowmanHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('FreestyleSnowman.html')
+        self.response.out.write(template.render())
+
+class FreestyleHouseHandler(webapp2.RequestHandler):
+    def get(self):
+        template = jinja_environment.get_template('FreestyleHouse.html')
+        self.response.out.write(template.render())
+
 class MathSnowmanHandler(webapp2.RequestHandler):
     def get(self):
         template = jinja_environment.get_template('MathSnowman.html')
@@ -25,6 +35,8 @@ class MathHouseHandler(webapp2.RequestHandler):
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
+    ('/freestyle-snowman', FreestyleSnowmanHandler),
+    ('/freestyle-house', FreestyleHouseHandler),
     ('/math-snowman', MathSnowmanHandler),
     ('/math-house', MathHouseHandler),
 ], debug=True)

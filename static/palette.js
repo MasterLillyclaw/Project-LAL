@@ -164,6 +164,14 @@ function makeColorWhite() {
   })
 }
 
+// function makeButtonsGlow() {
+//   $(".glowingCircle").on("mouseenter", function () {
+//     $(this).effect("highlight", {color : "red"}, 2000);
+//   });
+//   $(".glowingCircle").on("mouseleave", function () {
+//     $(this).effect("highlight", {color : "#e6e6e6"}, 2000);
+//   });
+// }
 
 
 /* This function will call all other functions */
@@ -176,6 +184,7 @@ function main() {
   makeColorPurple();
   makeColorBlack();
   makeColorWhite();
+  // makeButtonsGlow();
 }
 
 
