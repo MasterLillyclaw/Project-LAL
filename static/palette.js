@@ -82,8 +82,6 @@ function makeColorWhite() {
   })
 }
 
-
-
 /* This function will call all other functions */
 function main() {
   makeColorRed();
@@ -95,6 +93,5 @@ function main() {
   makeColorBlack();
   makeColorWhite();
 }
-
 
 $(document).ready(main);
