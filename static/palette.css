@@ -208,6 +208,11 @@
   line-height: 50px;
 }
 
+.practiceRectangle {
+  width: 200px;
+	height: 200px;
+}
+
 div.palette {
   width: 210px;
   height: 320px;
