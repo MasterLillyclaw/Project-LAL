@@ -1,11 +1,17 @@
 #HatTopEqu {
   position: absolute;
-  margin-left: 45%;
-  margin-top: 0%;
+  margin-left: 46%;
+  margin-top: -7%;
 }
 
 #HatMiddleEqu {
   position: absolute;
-  margin-left: 45%;
+  margin-left: 46.5%;
   margin-top: 10%;
+}
+
+#HatBottomEqu {
+  position: absolute;
+  margin-left: 46%;
+  margin-top: 20%;
 }
