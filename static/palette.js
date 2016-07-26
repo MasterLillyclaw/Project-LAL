@@ -9,7 +9,7 @@ function makeColorRed() {
   $(".redCircle").on("click", function () {
     // this sets a variable as the css background attribute
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       // this changes the new background to the previously
       // set variable called color
       $(this).css("background", color)
@@ -22,7 +22,7 @@ function makeColorRed() {
 function makeColorOrange() {
   $(".orangeCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $("clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -31,7 +31,7 @@ function makeColorOrange() {
 function makeColorYellow() {
   $(".yellowCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -40,7 +40,7 @@ function makeColorYellow() {
 function makeColorGreen() {
   $(".greenCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -49,7 +49,7 @@ function makeColorGreen() {
 function makeColorBlue() {
   $(".blueCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -58,7 +58,7 @@ function makeColorBlue() {
 function makeColorPurple() {
   $(".purpleCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -67,7 +67,7 @@ function makeColorPurple() {
 function makeColorBlack() {
   $(".blackCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
@@ -76,7 +76,7 @@ function makeColorBlack() {
 function makeColorWhite() {
   $(".whiteCircle").on("click", function () {
     var color = $(this).css("background");
-    $(".practiceRectangle").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
