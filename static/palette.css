@@ -208,16 +208,12 @@
   line-height: 50px;
 }
 
-.practiceRectangle {
-  width: 200px;
-	height: 200px;
-}
-
 div.palette {
   width: 210px;
   height: 320px;
   float: left;
 }
+<<<<<<< HEAD
 /*webpage border*/
 #top, #bottom, #left, #right {
   background:
@@ -270,4 +266,12 @@ h1{
 #brush{
   position: absolute;
   margin-left:500px;
+=======
+
+.glowingCircle:hover {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  box-shadow: 0px 0px 60px black;
+>>>>>>> 7ece3cedac427b4aa8e6880d08f3dd2cfac34b83
 }

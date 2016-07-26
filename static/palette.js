@@ -25,6 +25,10 @@ function makeColorRed() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid red")
     });
+    //This applies to the house chimney
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid red")
+    });
   })
 }
 
@@ -46,6 +50,9 @@ function makeColorOrange() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid orange")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid orange")
+    });
   })
 }
 
@@ -64,6 +71,9 @@ function makeColorYellow() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid yellow")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid yellow")
     });
   })
 }
@@ -84,6 +94,9 @@ function makeColorGreen() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid green")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid green")
+    });
   })
 }
 
@@ -102,6 +115,9 @@ function makeColorBlue() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid blue")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid blue")
     });
   })
 }
@@ -122,6 +138,9 @@ function makeColorPurple() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid purple")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid purple")
+    });
   })
 }
 
@@ -140,6 +159,9 @@ function makeColorBlack() {
     // This applies to the house tree
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid black")
+    });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid black")
     });
   })
 }
@@ -160,9 +182,20 @@ function makeColorWhite() {
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid white")
     });
+    $(".clickableChimney").on("click", function () {
+      $(this).css("border-bottom", "70px solid white")
+    });
   })
 }
 
+// function makeButtonsGlow() {
+//   $(".glowingCircle").on("mouseenter", function () {
+//     $(this).effect("highlight", {color : "red"}, 2000);
+//   });
+//   $(".glowingCircle").on("mouseleave", function () {
+//     $(this).effect("highlight", {color : "#e6e6e6"}, 2000);
+//   });
+// }
 
 
 /* This function will call all other functions */
@@ -175,6 +208,7 @@ function main() {
   makeColorPurple();
   makeColorBlack();
   makeColorWhite();
+  // makeButtonsGlow();
 }
 
 
