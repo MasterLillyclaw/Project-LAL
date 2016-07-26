@@ -13,7 +13,7 @@
 /* The different palette circles */
 
 /* red */
-.redCircle {
+#redCircle {
   position: fixed;
     top: 250px;
     left: 25px;
@@ -37,7 +37,7 @@
 }
 
 /* yellow */
-.yellowCircle {
+#yellowCircle {
   position: fixed;
     top: 320px;
     left: 25px;
@@ -61,7 +61,7 @@
 }
 
 /* blue */
-.blueCircle {
+#blueCircle {
   position: fixed;
     top: 390px;
     left: 25px;
@@ -86,7 +86,7 @@
 }
 
 /* black */
-.blackCircle {
+#blackCircle {
   position: fixed;
     top: 460px;
     left: 25px;
@@ -111,7 +111,7 @@
 }
 
 /* orange */
-.orangeCircle {
+#orangeCircle {
   position: fixed;
     top: 250px;
     left: 110px;
@@ -135,7 +135,7 @@
 }
 
 /* green */
-.greenCircle {
+#greenCircle {
   position: fixed;
     top: 320px;
     left: 110px;
@@ -160,7 +160,7 @@
 }
 
 /* purple */
-.purpleCircle {
+#purpleCircle {
   position: fixed;
     top: 390px;
     left: 110px;
@@ -185,7 +185,7 @@
 }
 
 /* white */
-.whiteCircle {
+#whiteCircle {
   position: fixed;
     top: 460px;
     left: 110px;

@@ -6,7 +6,7 @@
   you clicked on." */
 
 function makeColorRed() {
-  $(".redCircle").on("click", function () {
+  $("#redCircle").on("click", function () {
     // this sets a variable as the css background attribute
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
@@ -20,16 +20,16 @@ function makeColorRed() {
 // the pattern is repeated for all palette colors
 
 function makeColorOrange() {
-  $(".orangeCircle").on("click", function () {
+  $("#orangeCircle").on("click", function () {
     var color = $(this).css("background");
-    $("clickable").on("click", function () {
+    $(".clickable").on("click", function () {
       $(this).css("background", color)
     });
   })
 }
 
 function makeColorYellow() {
-  $(".yellowCircle").on("click", function () {
+  $("#yellowCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
@@ -38,7 +38,7 @@ function makeColorYellow() {
 }
 
 function makeColorGreen() {
-  $(".greenCircle").on("click", function () {
+  $("#greenCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
@@ -47,7 +47,7 @@ function makeColorGreen() {
 }
 
 function makeColorBlue() {
-  $(".blueCircle").on("click", function () {
+  $("#blueCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
@@ -56,7 +56,7 @@ function makeColorBlue() {
 }
 
 function makeColorPurple() {
-  $(".purpleCircle").on("click", function () {
+  $("#purpleCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
@@ -65,7 +65,7 @@ function makeColorPurple() {
 }
 
 function makeColorBlack() {
-  $(".blackCircle").on("click", function () {
+  $("#blackCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
@@ -74,7 +74,7 @@ function makeColorBlack() {
 }
 
 function makeColorWhite() {
-  $(".whiteCircle").on("click", function () {
+  $("#whiteCircle").on("click", function () {
     var color = $(this).css("background");
     $(".clickable").on("click", function () {
       $(this).css("background", color)
