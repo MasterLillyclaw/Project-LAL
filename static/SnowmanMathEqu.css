@@ -37,20 +37,23 @@
 
 #ButtonTopEqu {
   position: absolute;
-  margin-left: 45.5%;
-  margin-top: 43%;
+  margin-left: 46.5%;
+  margin-top: 44%;
+  font-size: 10px;
 }
 
 #ButtonMiddleEqu {
   position: absolute;
-  margin-left: 46%;
-  margin-top: 55%;
+  margin-left: 47%;
+  margin-top: 56%;
+  font-size: 10px;
 }
 
 #ButtonBottomEqu {
   position: absolute;
-  margin-left: 46%;
-  margin-top: 67%;
+  margin-left: 47%;
+  margin-top: 68%;
+  font-size: 10px;
 }
 
 #NoseEqu {
