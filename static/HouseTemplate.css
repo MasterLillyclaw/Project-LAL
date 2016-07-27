@@ -194,3 +194,27 @@
   margin-left: 30%;
   margin-top: 18%;
 }
+/*webpage border*/
+#top, #bottom, #left, #right {
+  background:
+  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #0080ff;
+	position: fixed;
+}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 40px;
+}
+#left { left: 0; }
+#right { right: 0; }
+
+#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }

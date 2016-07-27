@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="../static/HouseMathEqu.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="../static/palette.js"></script>
+    <script src="../static/palette.js"></script>
+  <script src="../static/html2canvas.js"></script>
+    <script src="../static/savePictures.js"></script>
 </head>
 <div id="brush">
   <img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;">
@@ -47,11 +49,12 @@
 </div>
 
 <div class="toolsRectangle">
-  <p><a href="http://localhost:16080/">Home</a><br>
+  <p><a href="http://project-lal.appspot.com/">Home</a><br>
   Undo<br>
   Redo<br>
-  Save<br>
-  <a href="http://localhost:16080/math-house">Reset</a>
+  <span onclick="saveToDisk()"><a id="dl" download="Canvas.png" href="#">Save</a>
+</span><br>
+  <a href="http://project-lal.appspot.com/math-house">Reset</a>
 </p>
 </div>
 
@@ -76,6 +79,7 @@
   <h1 id = "TreeMiddle" class="clickableTree"></h1>
   <h1 id = "TreeTopOutline"></h1>
   <h1 id = "TreeTop" class="clickableTree"></h1>
+<<<<<<< HEAD
 
 <!--Integrates math equations into the house picture  -->
   <p id = "ChimneyEqu">9-2</p>
@@ -94,5 +98,7 @@
   <p id = "TreeTopEqu">2+2</p>
 
 
+=======
+>>>>>>> 57fd3e4da26cf43bd7a740ffc771641fe6aa7303
 </div>
 </body>
