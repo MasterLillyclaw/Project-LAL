@@ -284,6 +284,7 @@ ul{
   width: 550px;
 }
 
+/*Moves the text and the snowman up a little for spacing purposes*/
 .textBorder {
   margin-top: -35px;
 }
