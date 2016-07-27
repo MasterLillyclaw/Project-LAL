@@ -2,12 +2,25 @@
 
 /* background */
 .paletteRectangle {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  /**/
   position: fixed;
     top: 200;
     left: 40;
   width: 200px;
 	height: 320px;
 	background: #e6e6e6;
+}
+
+.paletteBorderRectangle{
+  position: fixed;
+    top: 216;
+    left: 40;
+  /**/
+  width: 25px;
+  height: 325px;
+  background: #e6e6e6;
 }
 
 /* The different palette circles */
@@ -209,6 +222,9 @@
 }
 
 div.palette {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  /**/
   width: 210px;
   height: 320px;
   float: left;

@@ -14,8 +14,8 @@
   <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon"/>
 
   <title>Math4Snowman</title>
-
 </head>
+
 <!-- webpage header -->
 <div id="brush">
   <img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;">
@@ -38,23 +38,23 @@
 <!--section moves the text up a little for spacing purposes
  and center centers the text -->
 <section class = "textBorder">
-  <center><p class="subtitles">Welcome to Math mode! Match the<br>
-    numbers with the equation to color Frosty!</p></center>
+  <center><p class="subtitles">Welcome to Math mode! Match<br>
+    the numbers with the equation to color Frosty!</p></center>
 </section>
 
 <body id="home">
 
-<body>
+    <!-- webpage border -->
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
 
 
 <!-- Setting up shapes for color palette,
-     Also putting numbers insclasse of circles-->
+    Also putting numbers insclasse of circles-->
 
-<!-- webpage border -->
-     <div id="left"></div>
-     <div id="right"></div>
-     <div id="top"></div>
-     <div id="bottom"></div>
+<div class="paletteBorderRectangle"></div>
 
   <div class="palette">
     <p class="paletteRectangle"></p>
@@ -68,21 +68,23 @@
     <div id="whiteCircle" class="glowingCircle">8</div>
   </div>
 
-
 <!-- Right panel tool box -->
 
-  <div class="toolsRectangle">
-    <p><a href="http://project-lal.appspot.com/">Home</a><br>
-    Undo<br>
-    Redo<br>
-    Save<br>
-    <a href="http://project-lal.appspot.com/math-snowman">Reset</a>
-  </div>
+<div class="toolsRectangle">
+  <p><a class="glowintText" href="http://project-lal.appspot.com/">Home</a><br>
+    <a class="glowingText">Undo</a><br>
+    <a class="glowingText">Redo</a><br>
+    <a class="glowingText" href="http://project-lal.appspot.com/math-snowman">Reset</a>
+  </p>
+</div>
 
+<div class="toolsBorderRectangle"></div>
+
+<!-- Snowman Template -->
 <section class = "moveSnowman">
   <div class="Border">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+  <p> &nbsp;</p>
+  <p> &nbsp;</p>
 
   <!--Creates the actual snowman image -->
     <h1 id = "LeftArm">8-6</h1>
@@ -100,7 +102,7 @@
     <h1 id = "EyesRight"></h1>
     <h1 id = "NoseOutline"></h1>
     <h1 id = "Nose"><div class="rotateText">1+1</div></h1>
-
   </div>
+
 </section>
 </body>
