@@ -101,6 +101,7 @@ function makeColorGreen() {
       if (color == expected) {
         $(this).css("border-bottom", "150px solid green");
         $(this).css("color", "green");
+        // append action to list
       }
     });
     $("#TreeMiddle").on("click", function () {
@@ -216,6 +217,7 @@ function makeColorWhite() {
     });
   })
 }
+
 
 
 /* This function will call all other functions */
