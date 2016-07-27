@@ -218,3 +218,36 @@
 		}
 #top { top: 0; }
 #bottom { bottom: 0; }
+/*header1*/
+h1{
+  position: static;
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+#brush{
+  position: absolute;
+  margin-left:500px;
+}
+
+#home{
+  background-image:url("home_background.png");
+  background-repeat: repeat-x;
+}
+/*header1*/
+li{display:inline;}
+li span{color: red;}
+li span2{color: #ff33cc;}
+li span3{color: orange;}
+li span4{color: yellow;}
+li span5{color: brown;}
+li span6{color: blue;}
+li span7{color: #ff33cc;}
+li span8{color: #00ff00;}
+li span9{color: red;}
+li{
+  border-bottom: 2px solid red;
+}
+ul{
+  font-family: 'Luckiest Guy', cursive;
+}
