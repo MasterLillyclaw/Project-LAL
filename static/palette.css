@@ -4,7 +4,7 @@
 .paletteRectangle {
   position: fixed;
     top: 200;
-    left: 0;
+    left: 40;
   width: 200px;
 	height: 320px;
 	background: #e6e6e6;
@@ -16,7 +16,7 @@
 #redCircle {
   position: fixed;
     top: 250px;
-    left: 25px;
+    left: 65px;
   /**/
   width: 50px;
 	height: 50px;
@@ -40,7 +40,7 @@
 #yellowCircle {
   position: fixed;
     top: 320px;
-    left: 25px;
+    left: 65px;
   /**/
   width: 50px;
 	height: 50px;
@@ -64,7 +64,7 @@
 #blueCircle {
   position: fixed;
     top: 390px;
-    left: 25px;
+    left: 65px;
   /**/
   width: 50px;
 	height: 50px;
@@ -89,7 +89,7 @@
 #blackCircle {
   position: fixed;
     top: 460px;
-    left: 25px;
+    left: 65px;
   /**/
   width: 50px;
 	height: 50px;
@@ -114,7 +114,7 @@
 #orangeCircle {
   position: fixed;
     top: 250px;
-    left: 110px;
+    left: 150px;
   /**/
   width: 50px;
 	height: 50px;
@@ -138,7 +138,7 @@
 #greenCircle {
   position: fixed;
     top: 320px;
-    left: 110px;
+    left: 150px;
   /**/
   width: 50px;
 	height: 50px;
@@ -163,7 +163,7 @@
 #purpleCircle {
   position: fixed;
     top: 390px;
-    left: 110px;
+    left: 150px;
   /**/
   width: 50px;
 	height: 50px;
@@ -188,7 +188,7 @@
 #whiteCircle {
   position: fixed;
     top: 460px;
-    left: 110px;
+    left: 150px;
   /**/
   width: 50px;
 	height: 50px;
