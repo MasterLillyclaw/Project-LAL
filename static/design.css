@@ -142,12 +142,13 @@ li{
     background-color: #f1f1f1
 }
 .show2 {display: block;}
-.centertext {
+
+.subtitles {
   font-size: 20px;
   font-family: 'Luckiest Guy', cursive;
-  margin-left: 33%;
-  width: 550px;
+  width: 80%;
 }
+
 ul{
   font-family: 'Luckiest Guy', cursive;
 }
