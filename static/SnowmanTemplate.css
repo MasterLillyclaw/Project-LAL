@@ -279,7 +279,11 @@ ul{
   font-family: 'Luckiest Guy';
 }
 .subtitles {
-  font-size: 20px;
-  font-family: 'Luckiest Guy';
+  font-size: 22px;
+  font-family: 'Luckiest Guy', cursive;
   width: 550px;
+}
+
+.textBorder {
+  margin-top: -35px;
 }
