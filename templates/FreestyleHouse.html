@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -6,19 +5,18 @@
   <link rel="stylesheet" href="../static/palette.css">
   <link rel="stylesheet" href="../static/tools-tab.css">
   <link rel="stylesheet" href="../static/HouseTemplate.css">
+  <link rel="stylesheet" href="../static/HouseMathEqu.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="../static/palette.js"></script>
-  <script src="../static/savePictures.js"></script>
+    <script src="../static/palette.js"></script>
+  <script src="../static/html2canvas.js"></script>
+    <script src="../static/savePictures.js"></script>
 
-  <title>Freestyle4House</title>
-
+  <title>Math4House</title>
 </head>
-
-<body id="home">
-  <div id="brush">
-    <img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;">
-  </div>
+<div id="brush">
+  <img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;">
+</div>
 <h1>
   <ul>
     <li><span>S</span></li
@@ -29,49 +27,49 @@
     ><li>4</li
     ><li><span6>A<span6></li
     ><li><span7>r<span7></li
-    ><li><span8>t<span8></li
-    ><li><span9>!<span9></li>
+    ><li><span8>t<span8>!</li>
   </ul>
-  <!-- webpage border -->
+</h1>
+<body id="home">
   <div id="left"></div>
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
+
 <!-- Setting up shapes for color palette,
      Also putting numbers insclasse of circles-->
 
 <div class="palette">
   <p class="paletteRectangle"></p>
-  <div id="redCircle" class="glowingCircle"></div>
-  <div id="orangeCircle" class="glowingCircle"></div>
-  <div id="yellowCircle" class="glowingCircle"></div>
-  <div id="greenCircle" class="glowingCircle"></div>
-  <div id="blueCircle" class="glowingCircle"></div>
-  <div id="purpleCircle" class="glowingCircle"></div>
-  <div id="blackCircle" class="glowingCircle"></div>
-  <div id="whiteCircle" class="glowingCircle"></div>
+  <div id="redCircle" class="glowingCircle">1</div>
+  <div id="orangeCircle" class="glowingCircle">2</div>
+  <div id="yellowCircle" class="glowingCircle">3</div>
+  <div id="greenCircle" class="glowingCircle">4</div>
+  <div id="blueCircle" class="glowingCircle">5</div>
+  <div id="purpleCircle" class="glowingCircle">6</div>
+  <div id="blackCircle" class="glowingCircle">7</div>
+  <div id="whiteCircle" class="glowingCircle">8</div>
 </div>
 
 <div class="toolsRectangle">
   <p><a href="http://project-lal.appspot.com/">Home</a><br>
   Undo<br>
   Redo<br>
-  Save<br>
-  <a href="http://project-lal.appspot.com/freestyle-house">Reset</a>
+  <span onclick="saveToDisk()"><a id="dl" download="Canvas.png" href="#">Save</a>
+</span><br>
+  <a href="http://project-lal.appspot.com/math-house">Reset</a>
 </p>
 </div>
 
 <!--House Template  -->
 <div class = "Border">
-  <p> &nbsp; </p>
-  <p> &nbsp; </p>
+<p>&nbsp;</p>
 
-
-  <h1 id = "ChimneyOutline"></h1>
-  <h1 id = "Chimney" class="clickable"><h1>
   <h1 id = "Foundation" class="clickable"></h1>
   <h1 id = "RoofOutline"></h1>
   <h1 id = "Roof" class="clickableRoof"></h1>
+  <h1 id = "ChimneyOutline"></h1>
+  <h1 id = "Chimney" class="clickableChimney"></h1>
   <h1 id = "Window" class="clickable"></h1>
   <h1 id = "WindowCrossHor" class="clickable"></h1>
   <h1 id = "WindowCrossVer" class="clickable"></h1>
@@ -84,6 +82,11 @@
   <h1 id = "TreeMiddle" class="clickableTree"></h1>
   <h1 id = "TreeTopOutline"></h1>
   <h1 id = "TreeTop" class="clickableTree"></h1>
+
 </div>
+
+
+
+
 
 </body>
