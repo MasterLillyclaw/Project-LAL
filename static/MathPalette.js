@@ -4,6 +4,7 @@ var color;
 function makeColorRed() {
   $("#redCircle").on("click", function () {
     color = $(this).css("background");
+    var expected = $(this).css("background");
     // It only affects the middle part of the snowman's hat
     $("#HatMiddle").on("click", function () {
       if (color == expected) {
@@ -18,7 +19,6 @@ function makeColorRed() {
       if (color == expected) {
         $(this).css("border-bottom", "250px solid red");
         $(this).css("color", "red");
-        $(this).css("border", "solid black");
       }
     });
   })
@@ -101,21 +101,18 @@ function makeColorGreen() {
       if (color == expected) {
         $(this).css("border-bottom", "150px solid green");
         $(this).css("color", "green");
-        $(this).css("border", "solid black");
       }
     });
     $("#TreeMiddle").on("click", function () {
       if (color == expected) {
         $(this).css("border-bottom", "150px solid green");
         $(this).css("color", "green");
-        $(this).css("border", "solid black");
       }
     });
     $("#TreeTop").on("click", function () {
       if (color == expected) {
         $(this).css("border-bottom", "150px solid green");
         $(this).css("color", "green");
-        $(this).css("border", "solid black");
       }
     });
   })
@@ -139,11 +136,10 @@ function makeColorPurple() {
   $("#purpleCircle").on("click", function () {
     color = $(this).css("background");
     var expected = $(this).css("background");
-    $(".clickableChimney").on("click", function () {
+    $("#Chimney").on("click", function () {
       if (color == expected) {
         $(this).css("border-bottom", "60px solid purple")
         $(this).css("color", "purple");
-        $(this).css("border", "solid black");
       }
     });
   })
