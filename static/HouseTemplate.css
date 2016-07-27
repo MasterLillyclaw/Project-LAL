@@ -251,3 +251,9 @@ li{
 ul{
   font-family: 'Luckiest Guy', cursive;
 }
+.centertext {
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 33%;
+  width: 550px;
+}

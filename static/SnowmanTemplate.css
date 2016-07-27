@@ -271,17 +271,16 @@ li span8{color: #00ff00;}
 li{
   border-bottom: 2px solid red;
 }
-h1{
-  position: static;
-  text-align: center;
-  font-size: 50px;
-  font-family: sans-serif;
-  margin-top: 40px;
-}
 #brush{
   position: absolute;
   margin-left:500px;
 }
 ul{
   font-family: 'Luckiest Guy', cursive;
+}
+.centertext {
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 33%;
+  width: 550px;
 }
