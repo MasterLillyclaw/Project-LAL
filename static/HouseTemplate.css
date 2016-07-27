@@ -284,10 +284,10 @@ li{
   border-bottom: 2px solid red;
 }
 ul{
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Luckiest Guy';
 }
 .subtitles {
   font-size: 20px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Luckiest Guy';
   width: 550px;
 }
