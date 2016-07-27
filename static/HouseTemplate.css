@@ -9,57 +9,57 @@
 
 #Foundation {
   width: 400px;
-  height: 400px;
+  height: 375px;
   border: solid;
   background: #d9d9d9;
   position: absolute;
   margin-left: 0%;
-  margin-top: 50%;
+  margin-top: 35%;
 }
 
 #Roof {
 	width: 0;
 	height: 0;
-	border-left: 300px solid transparent;
-	border-right: 300px solid transparent;
-	border-bottom: 300px solid #d9d9d9;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 250px solid #d9d9d9;
   position: absolute;
-  margin-left: -25%;
-  margin-top: -15%;
+  margin-left: -12.5%;
+  margin-top: -18%;
 }
 
 #RoofOutline {
 	width: 0;
 	height: 0;
-	border-left: 310px solid transparent;
-	border-right: 310px solid transparent;
-	border-bottom: 310px solid black;
+	border-left: 260px solid transparent;
+	border-right: 260px solid transparent;
+	border-bottom: 260px solid black;
   position: absolute;
-  margin-left: -27.5%;
-  margin-top: -16.5%;
+  margin-left: -15%;
+  margin-top: -19.5%;
 }
 
 #Chimney {
-	border-bottom: 70px solid #d9d9d9;
+	border-bottom: 60px solid #d9d9d9;
 	border-left: 0px solid transparent;
-	border-right: 70px solid transparent;
+	border-right: 60px solid transparent;
 	height: 0;
-	width: 100px;
+	width: 90px;
   transform: rotate(-270deg);
-  margin-left: -17%;
-  margin-top: 8%;
+  margin-left: -5%;
+  margin-top: -2%;
   position: absolute;
 }
 
 #ChimneyOutline {
-	border-bottom: 75px solid black;
+	border-bottom: 65px solid black;
 	border-left: 0px solid transparent;
-	border-right: 83px solid transparent;
+	border-right: 65px solid transparent;
 	height: 0;
-	width: 100px;
+	width: 95.5px;
   transform: rotate(-270deg);
-  margin-left: -18.5%;
-  margin-top: 8%;
+  margin-left: -6.5%;
+  margin-top: -2.5%;
   position: absolute;
 }
 
@@ -69,20 +69,20 @@
   border: solid;
   background: #d9d9d9;
   position: absolute;
-  margin-left: 35%;
-  margin-top: 100%;
+  margin-left: 37%;
+  margin-top: 79%;
 }
 
 #DoorKnob {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border: solid;
   background: #d9d9d9;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 300px;
-  margin-left: 53%;
-  margin-top: 125%;
+  margin-left: 54%;
+  margin-top: 104%;
   position: absolute;
 }
 
@@ -94,7 +94,7 @@
 	border-bottom: 150px solid #d9d9d9;
   position: absolute;
   margin-left: 80%;
-  margin-top: 60%;
+  margin-top: 39%;
 }
 
 #TreeMiddle {
@@ -105,7 +105,7 @@
 	border-bottom: 150px solid #d9d9d9;
   position: absolute;
   margin-left: 80%;
-  margin-top: 80%;
+  margin-top: 59%;
 }
 
 #TreeBottom {
@@ -116,7 +116,7 @@
 	border-bottom: 150px solid #d9d9d9;
   position: absolute;
   margin-left: 80%;
-  margin-top: 100%;
+  margin-top: 79%;
 }
 
 #TreeTopOutline {
@@ -127,7 +127,7 @@
 	border-bottom: 156px solid black;
   position: absolute;
   margin-left: 78.5%;
-  margin-top: 59.2%;
+  margin-top: 38.2%;
 }
 
 #TreeMiddleOutline {
@@ -138,7 +138,7 @@
 	border-bottom: 156px solid black;
   position: absolute;
   margin-left: 78.5%;
-  margin-top: 79.2%;
+  margin-top: 58.2%;
 }
 
 #TreeBottomOutline {
@@ -149,7 +149,7 @@
 	border-bottom: 156px solid black;
   position: absolute;
   margin-left: 78.5%;
-  margin-top: 99.2%;
+  margin-top: 78.3%;
 }
 
 #TreeStump {
@@ -159,7 +159,7 @@
   background: #d9d9d9;
   position: absolute;
   margin-left: 100%;
-  margin-top: 125%;
+  margin-top: 104%;
 }
 
 #Window {
@@ -171,7 +171,7 @@
   -webkit-border-radius: 50px;
   border-radius: 300px;
   margin-left: 30%;
-  margin-top: 10%;
+  margin-top: 0%;
   position: absolute;
 }
 
@@ -182,7 +182,7 @@
   position: absolute;
   width: 10px;
   margin-left: 47.5%;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 #WindowCrossHor {
@@ -192,5 +192,5 @@
   position: absolute;
   width: 150px;
   margin-left: 30%;
-  margin-top: 28%;
+  margin-top: 18%;
 }

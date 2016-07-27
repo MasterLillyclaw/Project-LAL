@@ -1,0 +1,86 @@
+/*Formats the equations onto the house*/
+#FoundationEqu {
+  position: absolute;
+  margin-left: 46%;
+  margin-top: 60%;
+}
+
+#RoofEqu {
+  position: absolute;
+  margin-left: 46%;
+  margin-top: 38%;
+}
+
+#ChimneyEqu {
+  position: absolute;
+  margin-left: 11%;
+  margin-top: -3%;
+}
+
+#DoorEqu {
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 123%;
+}
+
+#DoorKnobEqu {
+  position: absolute;
+  margin-left: 56%;
+  margin-top: 105%;
+  font-size: 10px;
+}
+
+#TreeTopEqu {
+  position: absolute;
+  margin-left: 87%;
+  margin-top: 70%;
+}
+
+#TreeMiddleEqu {
+  position: absolute;
+  margin-left: 87%;
+  margin-top: 90%;
+}
+
+#TreeBottomEqu {
+  position: absolute;
+  margin-left: 87%;
+  margin-top: 110%;
+}
+
+
+#TreeStumpEqu {
+  position: absolute;
+  margin-left: 101.5%;
+  margin-top: 120%;
+}
+
+#WindowEqu {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 9%;
+}
+
+#WindowCrossVerEqu1 {
+  position: absolute;
+  margin-left: 48.5%;
+  margin-top: 11%;
+}
+
+#WindowCrossVerEqu2 {
+  position: absolute;
+  margin-left: 48.5%;
+  margin-top: 16%;
+}
+
+#WindowCrossVerEqu3 {
+  position: absolute;
+  margin-left: 48.5%;
+  margin-top: 21%;
+}
+
+#WindowCrossHorEqu {
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 16.5%;
+}
