@@ -142,6 +142,7 @@ li{
     background-color: #f1f1f1
 }
 .show2 {display: block;}
+<<<<<<< HEAD
 .centertext {
   font-size: 20px;
   font-family: 'Luckiest Guy', cursive;
@@ -152,6 +153,14 @@ p{
   justify-content: center;
 }
 ul {
+=======
+
+
+.centertext {
+  margin-left: 19%;
+
+ul{
+>>>>>>> 3687897e1112ab6f672cc6c017ba2e9b95c885af
   font-family: 'Luckiest Guy', cursive;
 }
 .grow:hover{
