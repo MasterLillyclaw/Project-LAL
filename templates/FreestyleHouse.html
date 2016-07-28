@@ -17,6 +17,10 @@
 </head>
 
 <!-- webpage header -->
+<div id="brush">
+  <a href="http://project-lal.appspot.com/"><img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;"></a>
+</div>
+
 <audio loop autoplay>
   <source src="../static/random.mp3">
 </audio>
@@ -58,14 +62,14 @@
 
 <div class="palette">
   <p class="paletteRectangle"></p>
-  <div id="redCircle" class="glowingCircle">1</div>
-  <div id="orangeCircle" class="glowingCircle">2</div>
-  <div id="yellowCircle" class="glowingCircle">3</div>
-  <div id="greenCircle" class="glowingCircle">4</div>
-  <div id="blueCircle" class="glowingCircle">5</div>
-  <div id="purpleCircle" class="glowingCircle">6</div>
-  <div id="blackCircle" class="glowingCircle">7</div>
-  <div id="whiteCircle" class="glowingCircle">8</div>
+  <div id="redCircle" class="glowingCircle"></div>
+  <div id="orangeCircle" class="glowingCircle"></div>
+  <div id="yellowCircle" class="glowingCircle"></div>
+  <div id="greenCircle" class="glowingCircle"></div>
+  <div id="blueCircle" class="glowingCircle"></div>
+  <div id="purpleCircle" class="glowingCircle"></div>
+  <div id="blackCircle" class="glowingCircle"></div>
+  <div id="whiteCircle" class="glowingCircle"></div>
 </div>
 
 <!-- Right panel tool box -->
@@ -73,9 +77,15 @@
 
 <div class="toolsRectangle">
   <p><a class="glowingText" href="http://project-lal.appspot.com/">Home</a><br>
+<<<<<<< HEAD
   <a class="glowingText">Undo</a><br>
   <a class="glowingText">Redo</a><br>
   <a class="glowingText" href="http://project-lal.appspot.com/freestyle-house">Reset</a>
+=======
+  <a class="glowingText" id="Undo">Undo</a><br>
+  <a class="glowingText" id="Redo">Redo</a><br>
+  <a class="glowingText" href="http://project-lal.appspot.com/math-house">Reset</a>
+>>>>>>> c2cd276672f8780283806446dbcf257cc2f4abc5
 </p>
 </div>
 
@@ -104,6 +114,7 @@
     <h1 id = "TreeMiddle" class="clickableTree"></h1>
     <h1 id = "TreeTopOutline"></h1>
     <h1 id = "TreeTop" class="clickableTree"></h1>
+</div>
 
 <embed src="../static/random.mp3" autostart="true" loop="true"
 width="2" height="0">

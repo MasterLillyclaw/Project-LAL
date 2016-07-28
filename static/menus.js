@@ -33,18 +33,21 @@ function myFunction2(){
    }
  }
 
+
+// Each move function allows each letter of the title to "jump"
 function Move(){
+  //When the mouse is over a letter, it will go up
  $('#move li span').on("mouseenter", function() {
     console.log("The image was found!");
   $(this).animate({bottom: "+=20px"});
   })
 
+//When the mouse leaves the letter, it will go back down
   $('#move li span').on("mouseleave", function() {
      console.log("The image was found!");
   $(this).animate({bottom: "-=20px"});
   })
  }
-
 
 function Move1(){
  $('#move li span1').on("mouseenter", function() {
