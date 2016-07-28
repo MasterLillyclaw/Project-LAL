@@ -20,7 +20,7 @@ a:link, a:visited, a:hover, a:active {
   font-family: 'Luckiest Guy', cursive;
   font-size: 30px;
   text-align: center;
-  line-height: 65px;
+  line-height: 52px;
 }
 
 .toolsBorderRectangle{
@@ -41,6 +41,10 @@ div.toolsRectangle {
   width: 200px;
   height: 320px;
   float: right;
+}
+
+#print-button {
+	display: none;
 }
 
 .glowingText:hover {
