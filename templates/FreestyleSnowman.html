@@ -9,17 +9,18 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="../static/palette.js"></script>
-  <script src="../static/savePictures.js"></script>
+
+  <link rel="icon" href="../static/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon"/>
 
   <title>Freestyle4Snowman</title>
-
 </head>
 
-</head>
 <!-- webpage header -->
 <div id="brush">
   <img src="../static/paintbrush.png" alt="paintbrush" style="width:80px;height:80px;">
 </div>
+
 <h1>
   <ul>
     <li><span>S</span></li
@@ -34,7 +35,14 @@
     ><li><span9>!<span9></li>
   </ul>
 </h1>
-<p class="centertext">Welcome to FreeStyle mode! Color Frosty however you want!</p>
+
+<!--section moves the text up a little for spacing purposes
+ and center centers the text -->
+<section class = "textBorder">
+  <center><p class="subtitles">Welcome to FreeStyle mode!<br>
+    Color Frosty however you want!</p></center>
+</section>
+
 <body id="home">
 
   <!-- webpage border -->
@@ -42,8 +50,13 @@
   <div id="right"></div>
   <div id="top"></div>
   <div id="bottom"></div>
+
+
 <!-- Setting up shapes for color palette,
-     Also putting numbers insclasse of circles-->
+     Also putting numbers in classes of circles-->
+
+<div class="paletteBorderRectangle"></div>
+
   <div class="palette">
     <p class="paletteRectangle"></p>
     <div id="redCircle" class="glowingCircle"></div>
@@ -58,13 +71,15 @@
 
 <!-- Right panel tool box -->
 
-  <div class="toolsRectangle">
-    <p><a href="http://project-lal.appspot.com/">Home</a><br>
-    Undo<br>
-    Redo<br>
-    Save<br>
-    <a href="http://project-lal.appspot.com/freestyle-snowman">Reset</a>
-  </div>
+<div class="toolsRectangle">
+  <p><a class="glowingText" href="http://project-lal.appspot.com/">Home</a><br>
+    <a class="glowingText">Undo</a><br>
+    <a class="glowingText">Redo</a><br>
+    <a class="glowingText" href="http://project-lal.appspot.com/freestyle-snowman">Reset</a>
+</p>
+</div>
+
+<div class="toolsBorderRectangle"></div>
 
 
 <div class="Border">
@@ -89,4 +104,30 @@
 <embed src="../static/frosty.mp3" autostart="true" loop="true"
 width="2" height="0">
 </embed>
+
+<!--Template for snowman  -->
+<section class = "moveSnowman">
+  <div class="Border">
+  <p> &nbsp;</p>
+  <p> &nbsp;</p>
+
+    <h1 id = "LeftArm" class="clickable"></h1>
+    <h1 id = "RightArm" class="clickable"><h1>
+    <h1 id = "circleBottom" class="clickable"></h1>
+    <h1 id = "circleMiddle" class="clickable"></h1>
+    <h1 id = "circleTop" class="clickable"></h1>
+    <h1 id = "HatBottom" class="clickable"></h1>
+    <h1 id = "HatTop" class="clickable"></h1>
+    <h1 id = "HatMiddle" class="clickable"></h1>
+    <h1 id = "ButtonTop" class="clickable"></h1>
+    <h1 id = "ButtonMiddle" class="clickable"></h1>
+    <h1 id = "ButtonBottom" class="clickable"></h1>
+    <h1 id="EyesLeft" class="clickable"></h1>
+    <h1 id="EyesRight" class="clickable"></h1>
+    <h1 id="NoseOutline"></h1>
+    <h1 id="Nose" class="clickableNose"></h1>
+  </div>
+</section>
+
+
 </body>

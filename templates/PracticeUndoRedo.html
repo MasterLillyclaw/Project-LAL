@@ -1,19 +1,18 @@
 
+<!-- Based off of the MathSnowman, attempting to implement undo/redo function -->
 <html>
 
 <head>
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-  <link rel="stylesheet" href="../static/palette.css">
-  <link rel="stylesheet" href="../static/tools-tab.css">
-  <link rel="stylesheet" href="../static/SnowmanTemplate.css">
+  <link rel="stylesheet" href="../static/PracticeUndoRedo.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="../static/MathPalette.js"></script>
+  <script src="../static/PracticeUndoRedo.js"></script>
 
   <link rel="icon" href="../static/favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon"/>
 
-  <title>Math4Snowman</title>
+  <title>PracticeUndoRedo</title>
 </head>
 
 <!-- webpage header -->
@@ -31,8 +30,7 @@
     ><li>4</li
     ><li><span6>A<span6></li
     ><li><span7>r<span7></li
-    ><li><span8>t<span8></li
-    ><li><span9>!<span9></li>
+    ><li><span8>t<span8>!</li>
   </ul>
 </h1>
 
@@ -73,16 +71,11 @@
 
 <div class="toolsRectangle">
   <p><a class="glowingText" href="http://project-lal.appspot.com/">Home</a><br>
-    <a class="glowingText">Undo</a><br>
+    <a class="glowingText" id="Undo">Undo</a><br>
     <a class="glowingText">Redo</a><br>
     <a class="glowingText" href="http://project-lal.appspot.com/math-snowman">Reset</a>
   </p>
 </div>
-
-<embed src="../static/frosty.mp3" autostart="true" loop="true"
-width="2" height="0">
-</embed>
-
 
 <div class="toolsBorderRectangle"></div>
 
@@ -111,5 +104,4 @@ width="2" height="0">
   </div>
 
 </section>
-
 </body>

@@ -45,13 +45,13 @@ function makeColorOrange() {
       $(this).css("border-bottom", "100px solid orange")
     });
     $(".clickableRoof").on("click", function () {
-      $(this).css("border-bottom", "300px solid orange")
+      $(this).css("border-bottom", "250px solid orange")
     });
     $(".clickableTree").on("click", function () {
       $(this).css("border-bottom", "150px solid orange")
     });
     $(".clickableChimney").on("click", function () {
-      $(this).css("border-bottom", "70px solid orange")
+      $(this).css("border-bottom", "60px solid orange")
     });
   })
 }

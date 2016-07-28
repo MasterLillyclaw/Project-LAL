@@ -15,6 +15,7 @@
   position: absolute;
   margin-left: 0%;
   margin-top: 35%;
+  line-height: 250px;
   font-size: 15px;
 }
 
@@ -232,10 +233,10 @@ div .dontWrap {
 /*webpage border*/
 #top, #bottom, #left, #right {
   background:
-  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  linear-gradient(135deg, #ffffcc 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #ffffcc 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ffffcc 25%, transparent 25%),
+  linear-gradient(45deg, #ffffcc 25%, transparent 25%);
   background-size: 100px 100px;
   background-color: #0080ff;
 	position: fixed;
@@ -266,6 +267,7 @@ h1{
 }
 
 #home{
+  background-color: ffffcc;
   background-image:url("home_background.png");
   background-repeat: repeat-x;
 }
@@ -284,12 +286,20 @@ li{
   border-bottom: 2px solid red;
 }
 ul{
+<<<<<<< HEAD
   font-family: 'Luckiest Guy', cursive;
   text-shadow: 4px 4px 4px #999999;
+=======
+  font-family: 'Luckiest Guy';
+>>>>>>> 5bd3ccb9eb64014334476da9c86d67f4dc782a02
 }
-.centertext {
+.subtitles {
   font-size: 20px;
-  font-family: 'Luckiest Guy', cursive;
-  margin-left: 33%;
+  font-family: 'Luckiest Guy';
   width: 550px;
+}
+
+/*Moves the text a little for spacing purposes*/
+.textBorder {
+  margin-top: -35px;
 }

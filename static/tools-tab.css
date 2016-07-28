@@ -1,17 +1,36 @@
 
-.toolsRectangle {
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none !important;
+  color: black;
+  border-bottom: none;
+}
+
+.toolsRectangle{
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  /**/
   position: fixed;
     top: 220;
     right: 40;
   /**/
   width: 200px;
-	height: 320px;
-	background: #e6e6e6;
+  height: 320px;
+  background: #e6e6e6;
   /**/
+  font-family: 'Luckiest Guy', cursive;
   font-size: 30px;
   text-align: center;
-  line-height: 50px;
+  line-height: 65px;
+}
+
+.toolsBorderRectangle{
+  position: fixed;
+  top: 220;
+  right: 40;
   /**/
+  width: 20px;
+  height: 320px;
+  background: #e6e6e6;
 }
 
 p {
@@ -22,4 +41,8 @@ div.toolsRectangle {
   width: 200px;
   height: 320px;
   float: right;
+}
+
+.glowingText:hover {
+  text-shadow: 0 0 50px red, 0 0 50px blue;
 }

@@ -1,5 +1,6 @@
 
 var color;
+var collectClickInfo = [];
 
 function makeColorRed() {
   $("#redCircle").on("click", function () {
@@ -13,8 +14,14 @@ function makeColorRed() {
       // But not the border color
         $(this).css("color", "red");
         $(this).css("border", "solid black");
-      }
-    });
+      // This should put the information in the variable to
+      // Collect info to allow undoing/redoing steps
+        collectClickInfo.append(this)
+          $("#Undo").on("click", function () {
+            collectClickInfo.remove(this);
+          })
+        }
+      });
     $("#Roof").on("click", function () {
       if (color == expected) {
         $(this).css("border-bottom", "250px solid red");
