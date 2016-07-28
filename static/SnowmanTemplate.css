@@ -262,12 +262,13 @@ div.snowman {
 li{display:inline;}
 li span{color: red;}
 li span2{color: #ff33cc;}
-li span3{color: blue;}
-li span4{color: orange;}
-li span5{color: yellow;}
+li span3{color: orange;}
+li span4{color: yellow;}
+li span5{color: #00ff00;}
 li span6{color: blue;}
-li span7{color: #ff33cc;}
-li span8{color: #00ff00;}
+li span7{color: purple;}
+li span8{color: red;}
+li span9{color: #ff33cc;}
 li{
   border-bottom: 2px solid red;
 }
@@ -277,6 +278,7 @@ li{
 }
 ul{
   font-family: 'Luckiest Guy', cursive;
+  text-shadow: 4px 4px 4px #999999;
 }
 .centertext {
   font-size: 20px;
