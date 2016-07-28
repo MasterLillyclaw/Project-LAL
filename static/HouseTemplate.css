@@ -271,6 +271,7 @@ h1{
   background-image:url("home_background.png");
   background-repeat: repeat-x;
 }
+
 /*header1*/
 li{display:inline;}
 li span{color: red;}
@@ -286,12 +287,8 @@ li{
   border-bottom: 2px solid red;
 }
 ul{
-<<<<<<< HEAD
   font-family: 'Luckiest Guy', cursive;
   text-shadow: 4px 4px 4px #999999;
-=======
-  font-family: 'Luckiest Guy';
->>>>>>> 5bd3ccb9eb64014334476da9c86d67f4dc782a02
 }
 .subtitles {
   font-size: 20px;
