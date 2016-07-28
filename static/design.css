@@ -168,6 +168,10 @@ li{
 .subtitles {
   font-size: 20px;
   font-family: 'Luckiest Guy', cursive;
+<<<<<<< HEAD
+=======
+  margin-left: 31%;
+>>>>>>> ac532b31ff4e4f25a98977d26ba4ebf2d463a37d
   width: 550px;
 }
 
