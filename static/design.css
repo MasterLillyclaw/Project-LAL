@@ -7,7 +7,7 @@ h1{
 }
 #brush{
   position: absolute;
-  margin-left:500px;
+  margin-left:480px;
   animation-name: example;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -27,16 +27,72 @@ h1{
   }
 /*header1*/
 li{display:inline;}
-li span {color: red;}
-li span2{color: #ff33cc;}
-li span3{color: orange;}
-li span4{color: yellow;}
-li span5{color: #00ff00;}
-li span6{color: blue;}
-li span7{color: purple;}
-li span8{color: red;}
-li span9{color: #ff33cc;}
-li{
+span {
+  color: red;
+  bottom: 720px;
+  margin-left: -10.5%;
+  position:absolute;
+
+}
+span2 {
+  color: #ff33cc;
+  bottom: 720px;
+  margin-left: -8.5%;
+  position:absolute;
+}
+span3 {
+  color: orange;
+  bottom: 720px;
+  margin-left: -5.3%;
+  position:absolute;
+}
+span4 {
+  color: yellow;
+  bottom: 720px;
+  margin-left: -3%;
+  position:absolute;
+}
+span5 {
+  color: #00ff00;
+  bottom: 720px;
+  margin-left: -.7%;
+  position:absolute;
+}
+span6 {
+  color: blue;
+  bottom: 720px;
+  margin-left: 3.4%;
+  position:absolute;
+}
+span7 {
+  color: purple;
+  bottom: 720px;
+  margin-left: 5.7%;
+  position:absolute;
+}
+span8 {
+  color: red;
+  bottom: 720px;
+  margin-left: 8%;
+  position:absolute;
+}
+span9 {
+  color: #ff33cc;
+  bottom: 720px;
+  margin-left: 10%;
+  position:absolute;
+}
+span10 {
+  color:black;
+  bottom: 720px;
+  margin-left: 1.4%;
+  position:absolute;
+}
+
+.Underline{
+  margin-left: 40.5%;
+  margin-bottom: 3%;
+  width : 300px;
   border-bottom: 2px solid red;
 }
 
@@ -190,4 +246,11 @@ ul{
 .dropdown > button{
     position:relative;
     z-index:2;
+}
+
+.HoldsPage {
+  width: 500px;
+  height: 18px;
+  margin-left: 32%;
+  margin-top: 4%;
 }
