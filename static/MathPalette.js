@@ -50,7 +50,7 @@
           $("#Undo").off("click");
           $("#Undo").on("click", function () {
             if (color == expected) {
-              $("#Roof").css("border-bottom", "#250px solid #d9d9d9")
+              $("#Roof").css("border-bottom", "250px solid #d9d9d9")
               $("#Roof").css("color", "black");
             }
           });
@@ -246,9 +246,9 @@
           });
           $("#Redo").on("click", function () {
             if (color == expected) {
-              $("#WindowCrossHor").css("background", "yellow")
-              $("#WindowCrossHor").css("color", "yellow");
-              $("#WindowCrossHor").css("border", "solid black");
+              $("#Foundation").css("background", "yellow")
+              $("#Foundation").css("color", "yellow");
+              $("#Foundation").css("border", "solid black");
             }
           });
         }
@@ -269,13 +269,13 @@
           $("#Undo").off("click");
           $("#Undo").on("click", function () {
             if (color == expected) {
-              $("#TreeBottom").css("background", "150px solid #d9d9d9")
+              $("#TreeBottom").css("border-bottom", "150px solid #d9d9d9")
               $("#TreeBottom").css("color", "black");
             }
           });
           $("#Redo").on("click", function () {
             if (color == expected) {
-              $("#TreeBottom").css("background", "150px solid green")
+              $("#TreeBottom").css("border-bottom", "150px solid green")
               $("#TreeBottom").css("color", "green");
             }
           });
@@ -288,14 +288,14 @@
           $("#Undo").off("click");
           $("#Undo").on("click", function () {
             if (color == expected) {
-              $("#TreeMiddle").css("background", "150px solid #d9d9d9")
+              $("#TreeMiddle").css("border-bottom", "150px solid #d9d9d9")
               $("#TreeMiddle").css("color", "black");
             }
           });
           $("#Redo").on("click", function () {
             if (color == expected) {
-              $("#TreeMiddle").css("background", "150px solid green")
-              $("#TreeMiddle").css("color", "150px solid green");
+              $("#TreeMiddle").css("border-bottom", "150px solid green")
+              $("#TreeMiddle").css("color", "green");
             }
           });
         }
@@ -307,14 +307,14 @@
           $("#Undo").off("click");
           $("#Undo").on("click", function () {
             if (color == expected) {
-              $("#TreeTop").css("background", "150px solid #d9d9d9")
+              $("#TreeTop").css("border-bottom", "150px solid #d9d9d9")
               $("#TreeTop").css("color", "black");
             }
           });
           $("#Redo").on("click", function () {
             if (color == expected) {
-              $("#TreeTop").css("background", "150px solid green")
-              $("#TreeTop").css("color", "150px solid green");
+              $("#TreeTop").css("border-bottom", "150px solid green")
+              $("#TreeTop").css("color", "green");
             }
           });
         }
@@ -366,13 +366,13 @@
           $("#Undo").off("click");
           $("#Undo").on("click", function () {
             if (color == expected) {
-              $("#Chimney").css("background", "60px solid #d9d9d9")
+              $("#Chimney").css("border-bottom", "60px solid #d9d9d9")
               $("#Chimney").css("color", "black");
             }
           });
           $("#Redo").on("click", function () {
             if (color == expected) {
-              $("#Chimney").css("background", "60px solid purple")
+              $("#Chimney").css("border-bottom", "60px solid purple")
               $("#Chimney").css("color", "purple");
             }
           });

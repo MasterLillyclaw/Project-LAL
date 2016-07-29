@@ -39,25 +39,25 @@ function Move(){
   //When the mouse is over a letter, it will go up
  $('#move li span').on("mouseenter", function() {
     console.log("The image was found!");
-  $(this).animate({bottom: "+=20px"});
+  $(this).animate({bottom: "+=1.5vw"});
   })
 
 //When the mouse leaves the letter, it will go back down
   $('#move li span').on("mouseleave", function() {
      console.log("The image was found!");
-  $(this).animate({bottom: "-=20px"});
+  $(this).animate({bottom: "-=1.5vw"});
   })
  }
 
 function Move1(){
  $('#move li span1').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span1').on("mouseleave", function() {
     console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
@@ -65,108 +65,108 @@ function Move1(){
 function Move2(){
  $('#move li span2').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span2').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move3(){
  $('#move li span3').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span3').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move4(){
  $('#move li span4').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span4').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move5(){
  $('#move li span5').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span5').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move6(){
  $('#move li span6').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span6').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move7(){
  $('#move li span7').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span7').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move8(){
  $('#move li span8').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span8').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move9(){
  $('#move li span9').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span9').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
 function Move10(){
  $('#move li span10').on("mouseenter", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "+=20px"});
+ $(this).animate({bottom: "+=1.5vw"});
  })
 
  $('#move li span10').on("mouseleave", function() {
    console.log("The image was found!");
- $(this).animate({bottom: "-=20px"});
+ $(this).animate({bottom: "-=1.5vw"});
  })
 }
 
